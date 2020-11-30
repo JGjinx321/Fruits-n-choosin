@@ -1,0 +1,55 @@
+CREATE TABLE OrderDetails (
+OrderDetailsId INT Identity(1,1) Primary Key,
+PaymentId INT,
+Order_Date DateTime,
+ProductId INT,
+Quantity INT,
+CustomerId INT,
+Delivered_Date DateTime,
+);
+
+CREATE TABLE Orders (
+OrderDetailsId INT,
+Shipped_Date DateTime,
+Total Money,
+OrderId INT Identity(1,1) Primary Key
+);
+CREATE TABLE Payment (
+PaymentId INT Identity(1,1) Primary Key,
+Payment_Type Nvarchar (30)
+);
+CREATE TABLE Products (
+ProductId INT Identity(1,1) Primary key,
+Product_Name NVarchar (60),
+Product_Color Nvarchar (20),
+Product_SC Nvarchar (20),
+Product_Desc NVarchar (250),
+Product_ST Nvarchar (50),
+Product_Price Money,
+ImgFilePath Nvarchar (250),
+CategoryId INT,
+QuantityInStock INT);
+
+GO
+CREATE TABLE Category (
+CategoryId INT Identity(1,1) Primary Key,
+Category_Name NVarchar(30),
+Category_desc Nvarchar(250),
+ImgFilePath Nvarchar(250),
+);
+CREATE TABLE Customer (
+CustomerId Int IDENTITY (1,1) PRIMARY KEY,
+Billing_Address NVarchar (95),
+Phone_Number Varchar (15),
+Email NVarchar (50),
+Street NVarchar (95),
+City Nvarchar (50),
+[State] Nvarchar (30),
+Zip_Code Nvarchar (10),
+First_Name Nvarchar (50),
+Last_Name Nvarchar (50),
+OrderId Int,
+ImgFilePath Varchar (250)
+);
+
+GO
