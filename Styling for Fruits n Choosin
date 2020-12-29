@@ -1,5 +1,5 @@
 .topnav {
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -13,16 +13,16 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: grey;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: turquoise;
   color: white;
 }
 
-img .Fruit-Home {
+.Fruit-Home {
 		padding: 0;
 		background-color: #333;
 		background: #aaa;
@@ -54,7 +54,8 @@ img .Fruit-Home {
       height: 300px;
       padding: 5px;
       float: left;
-      border-radius: 50%;    }
+      border-radius: 50%; 
+      margin-right: 25px;}
 
     .Rambutan-image {
       background-image: url("NewWebImages/Rambutan.jpg");
@@ -64,7 +65,9 @@ img .Fruit-Home {
       height: 300px;
       padding: 5px;
       float: left;
-      border-radius: 50%; }
+      border-radius: 50%;
+      margin-right: 25px;
+      margin-left: 25px; }
 
     .Prickly-pear-fruit-image{
       background-image: url("NewWebImages/Prickly pear fruit.jpg");
@@ -74,17 +77,19 @@ img .Fruit-Home {
       height: 300px;
       padding: 5px;
       float: left;
-      border-radius: 50%; }
+      border-radius: 50%;
+      margin-left: 25px; }
     
       .Kiwi-image{
-      background-image: url("NewWebImages/kiwi.jpg");
+      background-image: url("NewWebImages/Kiwi.jpg");
       width:25%;
       background-size: cover;
       background-position: center;
       height: 300px;
       padding: 5px;
       float: left;
-      border-radius: 50%; }
+      border-radius: 50%;
+      margin-right: 25px; }
 
       .Finger-Limes{
       background-image: url("NewWebImages/Finger Limes.jpg");
@@ -94,7 +99,9 @@ img .Fruit-Home {
       height: 300px;
       padding: 5px;
       float: left;
-      border-radius: 50%; }
+      border-radius: 50%; 
+      margin-right: 25px;
+      margin-left: 25px; }
 
       .Dragon-Fruit{
       background-image: url("NewWebImages/Dragon Fruit.jpg");
@@ -104,7 +111,76 @@ img .Fruit-Home {
       height: 300px;
       padding: 5px;
       float: left;
-      border-radius: 50%; }
+      border-radius: 50%; 
+      margin-right: 25px;
+      margin-left: 25px; }
+
+
+      .Cherimoya-image{
+      background-image: url("NewWebImages/Cherimoya.jpg");
+      width:25%;
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      padding: 5px;
+      float: left;
+      border-radius: 50%;
+      margin-left: 25px; }
+
+      .Fuyu-Persimmon-image{
+      background-image: url("NewWebImages/Fuyu Persimmon.jpg");
+      width:25%;
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      padding: 5px;
+      float: left;
+      border-radius: 50%; 
+      margin-right: 25px;}
+
+      .Black-Sapote-image{
+      background-image: url("NewWebImages/Black Sapote.jpg");
+      width:25%;
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      padding: 5px;
+      float: left;
+      border-radius: 50%; 
+      margin-right: 25px;}
+
+      .Pacay-Bean-image{
+      background-image: url("NewWebImages/Pacay Beans.jpg");
+      width:25%;
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      padding: 5px;
+      float: left;
+      border-radius: 50%; 
+      margin-right: 25px;}
+
+      .Kiwano-image{
+      background-image: url("NewWebImages/Kiwano.jpg");
+      width:25%;
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      padding: 5px;
+      float: left;
+      border-radius: 50%; 
+      margin-right: 25px;}
+
+      .Jack-Fruit-image{
+      background-image: url("NewWebImages/Jackfruit.jpg");
+      width:25%;
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      padding: 5px;
+      float: left;
+      border-radius: 50%; 
+      margin-right: 25px;}
 
      .row::after {
        content: "";
@@ -118,8 +194,9 @@ img .Fruit-Home {
 
       .heading {
         display: block;
-        color: black;
-        border-radius: 75px;
+        Width: 75%;
+        border-radius: 50px;
+        border: dotted turquoise;
         opacity:1;
         position: relative;
         line-height: 14px;
@@ -130,11 +207,44 @@ img .Fruit-Home {
         vertical-align: 
         middle; 
         padding:20px 47px;
-
       }
 
-      .content {
+       .Picturebox {
         display: block;
+        Width: 75%;
+        border-radius: 50px;
+        border: solid turquoise;
+        opacity:1;
+        position: relative;
+        line-height: 14px;
+        margin-left: 20px;
+        font-family: Garamond;
+        background-color:white; 
+        text-align:left; 
+        vertical-align: 
+        middle; 
+        padding:20px 47px;
+      }
+      
+      .content{
+        display: block;
+        Width:100%;
+        border-radius: 25px;
+        border: dotted turquoise;
+        position: relative;
+        line-height: 14px;
+        margin-left: 20px;
+        font-family: Garamond;
+        background-color:white; 
+        text-align:left; 
+        vertical-align: 
+        middle; 
+        padding:20px 47px;
+      }
+
+      hr{
+        float: none;
+        clear: left;
       }
      
 
